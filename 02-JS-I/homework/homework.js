@@ -248,8 +248,6 @@ if (letra.length > 1) {
 }
 
 
-
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
