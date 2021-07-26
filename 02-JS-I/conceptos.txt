@@ -1,0 +1,32 @@
+	* Variables // Las variables son contenedores en los cuales almaceno valores. 
+    En una línea de codigo ingreso la palabra "var", luego el nombre de la variable y seguidamente (entre corchetes)
+    el valor de la variable, ingresando un punto y coma (;) al final. La formula quedaría de esta forma: "var AñoBiciesto [=366];" por lo que cada vez que
+    ingrese el nombre de la variable (en este casi "AñoBiciesto"), el interprete me devolverá el valor asignado (366).
+
+    
+	* Strings // Es una secuencia de texto que se conoce como "cadena". Resulta importante recordar que
+    debe contener un texto y no valores numericos o boleanos. Debe ir encerrada en un apostrofo (') Ej: var NombreUsuario = 'Nicolas Liasso';
+    (no olvidar el punto y coma). De igual manera que las variables explicadas en el punto supra, el llamado a esta variable
+    devolverá el valor asignado.
+
+
+	* Funciones (argumentos, `return`) // Esta sentencia le indica al navegador que debe devolver la variable [resultado] fuera
+    de la función. Esto resulta útil para poder disponer del [resultado] para su uso, ya que las variables definidas dentro
+    de una funcion, solo está disponible dentro de la misma.
+
+
+	* Declaraciones `if` // Las declaraciones "if" son condicionales, lo que significa que se ejecutará el bloque de codigo
+    de acuerdo al resultado de comparar la variable con la cadena ingresada. Si estas coinciden, devuelve true, si no, devuelve false.
+    Esto se conoce como la condicional "if else" y para su uso requiere primariamente establecer una variable. Ej:
+    var divisa = 'peso';
+    if (divisa === 'peso') {
+        alert ('Divisa correcta');
+        } else {
+            alert ('Por favor, ingrese la divisa correcta');
+        }
+
+        
+
+	* Valores booleanos (`true`, `false`) // Son palabras que utiliza el JS para definir si algo cumple o no, si es verdadero o falso,
+    si es si o no, etc. No podemos utilizarlas como nombres de variables, ya que derivará en un error. Según el manual de JS,
+    todos los valores son verdaderos a menos que se definan como falso.
